@@ -1,0 +1,45 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #137355;
+    color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+}
+
+.navbar-logo img {
+    max-width: 50px;
+}
+
+.navbar-links-left {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-right: auto; /*Aliniaza butoanele la stanga*/
+    font-size: 20px;
+}
+.navbar-links-right {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-left: auto; /*Aliniaza butoanele la dreapta*/
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.navbar-links-left a, .navbar-links-right a{
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.navbar-links-left .navbar-brand {
+    cursor: pointer;
+}
+
+.navbar-links-left a:hover, .navbar-links-right a:hover {
+    color: lightgray;
+}

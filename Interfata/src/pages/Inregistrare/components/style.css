@@ -1,0 +1,43 @@
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1000px;
+    margin-left: 50px;
+}
+
+.form {
+    flex: 0 0 calc(70% - 10px); /* Ajusteaza dimensiunea formularului */
+    max-width: 400px;
+    margin-left: 75px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+
+.form-image {
+    margin-top: 100px;
+    max-width: 200%;
+    height: auto;
+}
+
+/* Stilizare sectiuni */
+.form-body > div {
+    margin-bottom: 15px;
+}
+
+.title-container {
+    padding-top: 60px;
+    text-align: left;
+    margin-left: 220px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
